@@ -1,0 +1,210 @@
+[
+  {
+    "id": "q01",
+    "question": "According to the Employee Handbook, how many days per week can employees work remotely?",
+    "expected_answer": "Employees may work remotely up to 3 days per week, subject to manager approval.",
+    "source_document": "company_handbook.pdf",
+    "difficulty": "easy",
+    "type": "factual",
+    "evidence_phrases": [
+      "up to three (3) days per week"
+    ]
+  },
+  {
+    "id": "q02",
+    "question": "How many days of paid time off (PTO) do full-time employees get per calendar year?",
+    "expected_answer": "Full-time employees get 25 days of PTO per calendar year, in addition to public holidays.",
+    "source_document": "company_handbook.pdf",
+    "difficulty": "easy",
+    "type": "factual",
+    "evidence_phrases": [
+      "twenty-five (25) days"
+    ]
+  },
+  {
+    "id": "q03",
+    "question": "How big is the annual professional development budget for a full-time employee?",
+    "expected_answer": "EUR 2,000 per full-time employee per year. It resets on January 1 and does not carry over.",
+    "source_document": "company_handbook.pdf",
+    "difficulty": "easy",
+    "type": "factual",
+    "evidence_phrases": [
+      "professional development budget of €2,000"
+    ]
+  },
+  {
+    "id": "q04",
+    "question": "What was NovaTech's Annual Recurring Revenue (ARR) at the end of Q1 2026?",
+    "expected_answer": "ARR reached EUR 18.2 million at the end of Q1 2026, up 23% year over year from EUR 14.8 million.",
+    "source_document": "quarterly_report_q1_2026.pdf",
+    "difficulty": "easy",
+    "type": "factual",
+    "evidence_phrases": [
+      "EUR 18.2 million"
+    ]
+  },
+  {
+    "id": "q05",
+    "question": "What uptime SLA does the Enterprise tier guarantee?",
+    "expected_answer": "99.95% uptime, which is about 21 minutes of maximum monthly downtime.",
+    "source_document": "product_guide.pdf",
+    "difficulty": "easy",
+    "type": "factual",
+    "evidence_phrases": [
+      "99.95%"
+    ]
+  },
+  {
+    "id": "q06",
+    "question": "How many days do employees have to submit an expense for reimbursement?",
+    "expected_answer": "Within thirty (30) calendar days of the expense being incurred, through the NovaExpense platform.",
+    "source_document": "company_handbook.pdf",
+    "difficulty": "easy",
+    "type": "factual",
+    "evidence_phrases": [
+      "thirty (30) calendar days"
+    ]
+  },
+  {
+    "id": "q07",
+    "question": "Compare the Professional and Enterprise support tiers.",
+    "expected_answer": "Professional has support during extended business hours (06:00-22:00 CET, Monday to Friday), email support, live chat during business hours, and a 1 hour response time for critical issues. Enterprise has 24/7 support including live chat and phone, a dedicated support manager, and a 15 minute response time for critical issues.",
+    "source_document": "product_guide.pdf",
+    "difficulty": "medium",
+    "type": "comparison",
+    "evidence_phrases": [
+      "Critical (service down) 4 hours 1 hour 15 minutes",
+      "Enterprise customers receive 24/7 support with a dedicated support manager",
+      "06:00 - 22:00 CET"
+    ]
+  },
+  {
+    "id": "q08",
+    "question": "Which Enterprise accounts were flagged as at risk of not renewing in the Q1 2026 report, and how much ARR is at stake in total?",
+    "expected_answer": "Gruber Manufacturing (EUR 178K, June 2026), Rheinland Utilities AG (EUR 148K, July 2026) and Alpen Logistics (EUR 94K, May 2026). The total at-risk ARR is EUR 420K, which is 2.3% of total ARR.",
+    "source_document": "quarterly_report_q1_2026.pdf",
+    "difficulty": "medium",
+    "type": "synthesis",
+    "evidence_phrases": [
+      "Gruber",
+      "Rheinland Utilities",
+      "Alpen Logistics",
+      "Total at-risk ARR: EUR 420K"
+    ]
+  },
+  {
+    "id": "q09",
+    "question": "What does the ProjectHub + Insight Professional bundle cost per user per month when billed monthly, and what would the two products cost separately?",
+    "expected_answer": "EUR 134 per user per month for the bundle, instead of EUR 158 if bought separately (a 15% bundle discount).",
+    "source_document": "product_guide.pdf",
+    "difficulty": "medium",
+    "type": "factual",
+    "evidence_phrases": [
+      "€134/user/month"
+    ]
+  },
+  {
+    "id": "q10",
+    "question": "After a personal data breach is confirmed, what are the notification deadlines for the DPO and General Counsel, the supervisory authority, and the affected individuals?",
+    "expected_answer": "Internally, the Security Operations Lead must notify the DPO and General Counsel within 2 hours. The supervisory authority must be notified within 72 hours of becoming aware of the breach. Affected individuals must be notified without undue delay and no later than 7 days after it is determined that individual notification is required.",
+    "source_document": "security_policy.pdf",
+    "difficulty": "medium",
+    "type": "synthesis",
+    "evidence_phrases": [
+      "notify the DPO and the General Counsel within 2 hours",
+      "within 72 hours of becoming aware",
+      "no later than 7 days"
+    ]
+  },
+  {
+    "id": "q11",
+    "question": "What budget was approved for NovaTech Copilot and how is it split?",
+    "expected_answer": "EUR 1.2M in total: personnel EUR 780K, infrastructure (GPU compute) EUR 280K, external consulting and dataset licensing EUR 90K, and contingency EUR 50K.",
+    "source_document": "meeting_notes.pdf",
+    "difficulty": "medium",
+    "type": "synthesis",
+    "evidence_phrases": [
+      "EUR 780K",
+      "EUR 280K",
+      "EUR 90K",
+      "EUR 50K"
+    ]
+  },
+  {
+    "id": "q12",
+    "question": "If an employee loses a company laptop that has full-disk encryption, how quickly must they report it and what incident severity does the security policy give it?",
+    "expected_answer": "They must report it to IT within 4 hours of discovery (IT emergency hotline +49 89 555 0199 or it-security@novatech-solutions.com). The security policy classes a lost laptop with full-disk encryption as a P4 (Low) incident, which must be acknowledged within 24 hours.",
+    "source_document": "company_handbook.pdf and security_policy.pdf",
+    "difficulty": "medium",
+    "type": "multi-document",
+    "evidence_phrases": [
+      "within four (4) hours",
+      "a laptop with full-disk encryption reported lost"
+    ]
+  },
+  {
+    "id": "q13",
+    "question": "What is the current remote work policy? How many days per week can employees work remotely?",
+    "expected_answer": "The handbook (v4.2, January 2026) says up to 3 days per week with manager approval. A leadership meeting on 5 March 2026 decided to raise this to up to 4 days remote per week from Q3 2026, with Tuesday as the mandatory in-office day. So it is 3 days now in the handbook and 4 days from Q3 2026.",
+    "source_document": "company_handbook.pdf and meeting_notes.pdf",
+    "difficulty": "hard",
+    "type": "conflicting-sources",
+    "evidence_phrases": [
+      "up to three (3) days per week",
+      "up to 4 days remote per week"
+    ]
+  },
+  {
+    "id": "q14",
+    "question": "How often do employees have to change their passwords?",
+    "expected_answer": "The handbook says every 90 days. The 5 March 2026 leadership meeting extended this to 180 days for employee user accounts, effective immediately (infrastructure credentials stay at 90 days). The handbook text still says 90 days.",
+    "source_document": "company_handbook.pdf and meeting_notes.pdf",
+    "difficulty": "hard",
+    "type": "conflicting-sources",
+    "evidence_phrases": [
+      "every ninety (90) days",
+      "from 90 days to 180 days"
+    ]
+  },
+  {
+    "id": "q15",
+    "question": "How many people work in the Lisbon office?",
+    "expected_answer": "The documents disagree. The handbook lists about 110 employees in Lisbon, while the Q1 2026 report says the Lisbon office added 22 staff members (22 at the end of Q1 2026).",
+    "source_document": "company_handbook.pdf and quarterly_report_q1_2026.pdf",
+    "difficulty": "hard",
+    "type": "conflicting-sources",
+    "evidence_phrases": [
+      "~110",
+      "adding 22 staff members"
+    ]
+  },
+  {
+    "id": "q16",
+    "question": "A Professional-tier customer with 20 users pays annually and licenses both ProjectHub and Insight. What do they pay per year?",
+    "expected_answer": "About EUR 26,880 per year: 20 users x EUR 112 per user per month (annual Professional bundle price) x 12 months.",
+    "source_document": "product_guide.pdf",
+    "difficulty": "hard",
+    "type": "calculation",
+    "evidence_phrases": [
+      "€112/user/month"
+    ]
+  },
+  {
+    "id": "q17",
+    "question": "What was NovaTech's quarterly revenue in Q2 2026?",
+    "expected_answer": "The documents do not contain Q2 2026 revenue. The only quarterly report is for Q1 2026, and the Q2 report was scheduled for later.",
+    "source_document": null,
+    "difficulty": "hard",
+    "type": "unanswerable",
+    "evidence_phrases": []
+  },
+  {
+    "id": "q18",
+    "question": "What is NovaTech's dress code for office employees?",
+    "expected_answer": "The documents do not contain information about a dress code.",
+    "source_document": null,
+    "difficulty": "hard",
+    "type": "unanswerable",
+    "evidence_phrases": []
+  }
+]

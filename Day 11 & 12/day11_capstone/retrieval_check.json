@@ -1,0 +1,167 @@
+{
+  "settings": {
+    "chunk_size_chars": 1000,
+    "chunk_overlap_chars": 150,
+    "top_k": 8,
+    "embedding_model": "nomic-embed-text",
+    "extraction_mode": "plain",
+    "questions_checked": 16,
+    "questions_with_all_evidence": 12
+  },
+  "results": [
+    {
+      "id": "q01",
+      "difficulty": "easy",
+      "phrases_found": 1,
+      "phrases_total": 1,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.7983
+    },
+    {
+      "id": "q02",
+      "difficulty": "easy",
+      "phrases_found": 1,
+      "phrases_total": 1,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.8712
+    },
+    {
+      "id": "q03",
+      "difficulty": "easy",
+      "phrases_found": 1,
+      "phrases_total": 1,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.8153
+    },
+    {
+      "id": "q04",
+      "difficulty": "easy",
+      "phrases_found": 1,
+      "phrases_total": 1,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.8443
+    },
+    {
+      "id": "q05",
+      "difficulty": "easy",
+      "phrases_found": 1,
+      "phrases_total": 1,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.7866
+    },
+    {
+      "id": "q06",
+      "difficulty": "easy",
+      "phrases_found": 0,
+      "phrases_total": 1,
+      "all_found": false,
+      "missing": [
+        "thirty (30) calendar days"
+      ],
+      "top_score": 0.7161
+    },
+    {
+      "id": "q07",
+      "difficulty": "medium",
+      "phrases_found": 2,
+      "phrases_total": 3,
+      "all_found": false,
+      "missing": [
+        "Critical (service down) 4 hours 1 hour 15 minutes"
+      ],
+      "top_score": 0.7118
+    },
+    {
+      "id": "q08",
+      "difficulty": "medium",
+      "phrases_found": 4,
+      "phrases_total": 4,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.7856
+    },
+    {
+      "id": "q09",
+      "difficulty": "medium",
+      "phrases_found": 1,
+      "phrases_total": 1,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.8104
+    },
+    {
+      "id": "q10",
+      "difficulty": "medium",
+      "phrases_found": 3,
+      "phrases_total": 3,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.8202
+    },
+    {
+      "id": "q11",
+      "difficulty": "medium",
+      "phrases_found": 2,
+      "phrases_total": 4,
+      "all_found": false,
+      "missing": [
+        "EUR 90K",
+        "EUR 50K"
+      ],
+      "top_score": 0.7712
+    },
+    {
+      "id": "q12",
+      "difficulty": "medium",
+      "phrases_found": 2,
+      "phrases_total": 2,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.7277
+    },
+    {
+      "id": "q13",
+      "difficulty": "hard",
+      "phrases_found": 2,
+      "phrases_total": 2,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.8236
+    },
+    {
+      "id": "q14",
+      "difficulty": "hard",
+      "phrases_found": 2,
+      "phrases_total": 2,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.7821
+    },
+    {
+      "id": "q15",
+      "difficulty": "hard",
+      "phrases_found": 0,
+      "phrases_total": 2,
+      "all_found": false,
+      "missing": [
+        "~110",
+        "adding 22 staff members"
+      ],
+      "top_score": 0.7817
+    },
+    {
+      "id": "q16",
+      "difficulty": "hard",
+      "phrases_found": 1,
+      "phrases_total": 1,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.7959
+    }
+  ]
+}

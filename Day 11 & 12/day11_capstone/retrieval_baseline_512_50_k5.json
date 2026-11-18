@@ -1,0 +1,168 @@
+{
+  "settings": {
+    "chunk_size_chars": 512,
+    "chunk_overlap_chars": 50,
+    "top_k": 5,
+    "embedding_model": "nomic-embed-text",
+    "extraction_mode": "plain",
+    "questions_checked": 16,
+    "questions_with_all_evidence": 12
+  },
+  "results": [
+    {
+      "id": "q01",
+      "difficulty": "easy",
+      "phrases_found": 1,
+      "phrases_total": 1,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.8364
+    },
+    {
+      "id": "q02",
+      "difficulty": "easy",
+      "phrases_found": 1,
+      "phrases_total": 1,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.879
+    },
+    {
+      "id": "q03",
+      "difficulty": "easy",
+      "phrases_found": 1,
+      "phrases_total": 1,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.8005
+    },
+    {
+      "id": "q04",
+      "difficulty": "easy",
+      "phrases_found": 1,
+      "phrases_total": 1,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.8486
+    },
+    {
+      "id": "q05",
+      "difficulty": "easy",
+      "phrases_found": 1,
+      "phrases_total": 1,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.7839
+    },
+    {
+      "id": "q06",
+      "difficulty": "easy",
+      "phrases_found": 1,
+      "phrases_total": 1,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.7459
+    },
+    {
+      "id": "q07",
+      "difficulty": "medium",
+      "phrases_found": 3,
+      "phrases_total": 3,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.7349
+    },
+    {
+      "id": "q08",
+      "difficulty": "medium",
+      "phrases_found": 3,
+      "phrases_total": 4,
+      "all_found": false,
+      "missing": [
+        "Total at-risk ARR: EUR 420K"
+      ],
+      "top_score": 0.7949
+    },
+    {
+      "id": "q09",
+      "difficulty": "medium",
+      "phrases_found": 1,
+      "phrases_total": 1,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.8214
+    },
+    {
+      "id": "q10",
+      "difficulty": "medium",
+      "phrases_found": 3,
+      "phrases_total": 3,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.8754
+    },
+    {
+      "id": "q11",
+      "difficulty": "medium",
+      "phrases_found": 1,
+      "phrases_total": 4,
+      "all_found": false,
+      "missing": [
+        "EUR 780K",
+        "EUR 90K",
+        "EUR 50K"
+      ],
+      "top_score": 0.7814
+    },
+    {
+      "id": "q12",
+      "difficulty": "medium",
+      "phrases_found": 2,
+      "phrases_total": 2,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.7631
+    },
+    {
+      "id": "q13",
+      "difficulty": "hard",
+      "phrases_found": 2,
+      "phrases_total": 2,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.8817
+    },
+    {
+      "id": "q14",
+      "difficulty": "hard",
+      "phrases_found": 1,
+      "phrases_total": 2,
+      "all_found": false,
+      "missing": [
+        "every ninety (90) days"
+      ],
+      "top_score": 0.786
+    },
+    {
+      "id": "q15",
+      "difficulty": "hard",
+      "phrases_found": 0,
+      "phrases_total": 2,
+      "all_found": false,
+      "missing": [
+        "~110",
+        "adding 22 staff members"
+      ],
+      "top_score": 0.7935
+    },
+    {
+      "id": "q16",
+      "difficulty": "hard",
+      "phrases_found": 1,
+      "phrases_total": 1,
+      "all_found": true,
+      "missing": [],
+      "top_score": 0.8042
+    }
+  ]
+}

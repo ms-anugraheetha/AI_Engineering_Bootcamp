@@ -1,0 +1,12 @@
+[project]
+name = "local-rag"
+version = "0.1.0"
+description = "Day 11 capstone: local document Q&A with Ollama and ChromaDB"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=2.21.0",
+    "chromadb>=1.0.0",
+    "langchain-text-splitters",
+    "pypdf",
+]
